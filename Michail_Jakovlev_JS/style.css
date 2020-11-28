@@ -1,0 +1,103 @@
+/*Стили для генерации*/
+
+.style_1 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #FF0000;
+   background: linear-gradient(to bottom, #FF0000 0%, #BF3030 36%, #A60000 100%);
+   color:#A6A600;
+
+}
+
+.style_2 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #D50065;
+   background: linear-gradient(to bottom, #D50065 0%, #A02860 36%, #8A0041 100%);
+   color:#007F16;
+
+}
+
+.style_3 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #510FAD;
+   background: linear-gradient(to bottom, #510FAD 0%, #4E2982 36%, #320571 100%);
+   color:#033E6B;
+
+}
+
+.style_4 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #0B61A4;
+   background: linear-gradient(to bottom, #0B61A4 0%, #25567B 36%, #033E6B 100%);
+   color:#320571;
+
+}
+
+.style_5 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #00C322;
+   background: linear-gradient(to bottom, #00C322 0%, #259238 36%, #007F16 100%);
+   color:#8A0041;
+
+}
+
+.style_6 {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+   background: #FFFF00;
+   background: linear-gradient(to bottom, #FFFF00 0%, #BFBF30 36%, #A6A600 100%);
+   color:#A60000;
+}
+
+/*Текст*/
+
+.text {
+   text-align: center;
+   padding-top: 200px;
+   font-size: 36pt;
+   height: 20px;
+   
+}
+
+/* Кнопки */
+
+.button_group {
+   padding-left: 47s0px;
+   margin-top: 300px;
+   
+}
+
+  .random_bg, .random_text, .clear {
+    height: 40px;
+    border-color: black;
+
+}
+
+.random_bg {
+   background: #00BD39;
+   background: linear-gradient(to bottom, #00BD39 0%, #37DE6A 36%, #64DE89 100%);
+
+}
+
+.random_text {
+  background: #0E53A7;
+  background: linear-gradient(to bottom, #0E53A7 0%, #4284D3 36%, #6899D3 100%);
+
+}
+
+.clear {
+   background: #FF0000;
+   background: linear-gradient(to bottom, #FF0000 0%, #FF4040 36%, #FF7373 100%);
+
+}
+
