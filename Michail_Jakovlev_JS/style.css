@@ -59,7 +59,14 @@
    color:#A60000;
 }
 
-/*Текст*/
+/*Текст и оболочка*/
+
+.wrapper {
+   margin: auto;
+   height: 600px;
+   width: 1200px;
+
+}
 
 .text {
    text-align: center;

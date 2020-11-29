@@ -18,6 +18,19 @@ function randomText(text) {
 
 function randomStyle(wrapper) {
 
+
+var target = document.getElementById('text');
+     var texts = [
+         'Hello world',
+         'Web',
+         'Q-Digital',
+         'Cлучайный текст',
+         'Java Script',
+         'Яковлев Михаил',
+         'Вроде работает как надо',
+         'Второй случайный текст'
+     ];
+ 
      var style = [
         'style_1',
         'style_2',
@@ -28,7 +41,10 @@ function randomStyle(wrapper) {
 
      ]; 
 
-     var x = (Math.random() * style.length) | 0;
-     document.querySelector(wrapper).className = style[x];
+     var x = (Math.random() * texts.length) | 0;
+     target.innerText = texts[x];
+
+     var y = (Math.random() * style.length) | 0;
+     document.querySelector(wrapper).className = style[y];
      
 }
