@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Яковлев Михаил</title>
+	<title>Java Script</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    
 </head>
 <body>
-    <div class="wrapper">
-	    <div class="text" id="text"></div>
-        <div class="button_group">
-		    <button onclick="randomStyle('.wrapper')" class="random_bg">Генерировать стиль</button>
-            <button value="Refresh Page" onClick="window.location.href=window.location.href" class="clear">Очистить</button>
-        </div>
-    </div>
+<div class="wrapper">
+    <div class="display" id="display">
+        <p class="text" id="text"></p>	
+    </div>	
+    <div class="buttons">
+    	<button class="random_style" id="random_style">Генерировать Стиль</button>
+    	<button class="clear" id="clear">Очистить</button>
+    </div> 
+</div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
